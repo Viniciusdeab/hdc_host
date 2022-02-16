@@ -1,0 +1,133 @@
+/*geral*/
+body, textarea{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3{
+    color: #333333;
+}
+
+p{
+    color:#70747A;
+}
+
+/*barra de navegação*/
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #232A31;
+    padding: 0 2em;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.logo{
+    width: 50px;
+    margin-top: 15px;
+}
+
+nav{
+    position: relative;
+}
+
+.navbar-items{
+    list-style: none;
+    position: absolute;
+    display: inline-block;
+    height: 80px;
+    line-height: 80px;
+    margin: 0px;
+    right: 0px;
+}
+
+.navbar-items li{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+.navbar-items li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.navbar-items li a:hover{
+    color: #82f582;
+}
+
+#default-btn{
+    padding: 15px 20px;
+    background-color: #006400;
+    border-radius: 5px;
+    color: #FFFFFF;
+    box-shadow: 3px 3px 5px #FFFFFF;
+}
+
+#default-btn:hover{
+    background-color: #22BB5F;
+    color: #006400;
+}
+
+.main-banner{
+    background-image: url("mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    position: relative;
+}
+
+.main-banner h1, .main-banner p{
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px;
+}
+
+/*seção de especialidade*/
+
+.specialties-container{
+    padding: 5em 0;
+}
+
+.specialties-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+}
+
+.specialties-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+
+.fas{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.fa-shield-alt{
+    color: #2CC76A;
+}
+
+.fa-rocket{
+    color: #EF3F29;
+}
+
+.fa-comments{
+    color: #EF8F29;
+}
